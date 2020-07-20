@@ -1,0 +1,31 @@
+/* ---------------------------------------- */
+/* == FOOTER */
+/*---------------------------------------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 25vh;
+    margin-top: 3vh;
+    padding: 2vh 2vw;
+    background: url(img/logo_footer.png) no-repeat 50%, #373229;
+    border-top: 10px double #736953;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    color: #e6e5e5;
+
+    a {
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: -0.1rem;
+        color: #797268;
+    }
+
+    a:hover {
+        color: #a9a293;
+    }
+}

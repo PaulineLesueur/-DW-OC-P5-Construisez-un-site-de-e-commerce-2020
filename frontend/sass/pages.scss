@@ -1,0 +1,315 @@
+/* ---------------------------------------- */
+/* == A PROPOS, ENTREPRISE, MENTIONS LEGALES */
+/*---------------------------------------- */
+.textual-pages {
+    width: 90vw;
+    margin: auto;
+    text-align: justify;
+    color: #494949;
+}
+
+#legal {
+    h3 {
+        margin-bottom: 0;
+    }
+
+    h4 {
+        margin-top: 4rem;
+    }
+}
+
+/* ---------------------------------------- */
+/* == INDEX - LISTE DES PRODUITS */
+/*---------------------------------------- */
+.index {
+    background: url('img/illustration_main_index.png') no-repeat 50%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-index {
+    width: 90vw;
+
+    .product-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5vh 0;
+        background: #312c25;
+
+        p {
+            padding: 1rem 1rem 0 1rem;
+            font-size: 1.1rem;
+            text-align: center;
+            line-height: 1.7rem;
+            color: #f9f9f9;
+
+            span {
+                font-size: 2rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: -0.1rem;
+                color: #a9a293;
+            }
+        }
+
+        .product-description {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 1rem 1rem 1rem;
+            background: rgba(49, 44, 37, 1);
+
+            p {
+                padding-bottom: 1rem;
+                font-size: 1rem;
+                font-weight: 300;
+                line-height: 1.1rem;
+            }
+        }
+    }
+}
+
+/* ---------------------------------------- */
+/* == PRODUCT - AFFICHAGE D'UN PRODUIT */
+/*---------------------------------------- */
+.container-product-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        width: 26rem;
+        background: url(img/logo_titres.png) no-repeat 17rem;
+    }
+
+    h4 {
+        margin: 2vh auto;
+        font-size: 1.6rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: -0.1rem;
+    }
+
+    .product-color {
+        color: #494949;
+    }
+
+    .container-product {
+        width: 90vw;
+        margin-top: 2vh;
+
+        .product-information {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .product-description {
+                padding: 2vh 0;
+                background: rgba(249, 249, 249, 0.8);
+                font-size: 1.1rem;
+                text-align: center;
+                line-height: 1.3rem;
+                color: #494949;
+            }
+    
+            .product-price-quantity {
+                display: flex;
+                justify-content: center;
+                width: 60vw;
+    
+                .product-price {
+                    width: 20vw;
+                    background: #373229;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    text-align: center;
+                    text-transform: uppercase;
+                    letter-spacing: -0.1rem;
+                    color: #a9a293;
+                }
+    
+                .product-quantity {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 30vw;
+    
+                    label {
+                        width: 11vw;
+                        font-weight: 600;
+                        font-size: 1.2rem;
+                        text-transform: uppercase;
+                        color: #494949;
+                    }
+    
+                    input {
+                        width: 14vw;
+                    }
+                }
+            }
+    
+            button {
+                width: 60vw;
+                height: 5vh;
+                margin-top: 2vh;
+            }
+        }
+    }
+}
+
+.product-page {
+    margin-top: 5vh;
+}
+
+/* ---------------------------------------- */
+/* == ORDER - PAGE PANIER */
+/*---------------------------------------- */
+.container-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #494949;
+
+    h3 {
+        background: url(img/logo_titres.png) no-repeat 11rem;
+    }
+
+    .clear {
+        display:flex;
+        justify-content: center;
+        width: 90vw;
+        padding: 1.3vh;
+        border-top: 4px double #a9a18f;
+    }
+
+    button {
+        width: 30vw;
+        height: 4vh;
+    }
+
+    .order-product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        margin: 1.5vh 0;
+        padding: 0.3rem;
+        background: #312c25;
+        color: #f9f9f9;
+
+        .infos-product-order {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h4 {
+            border: none;
+            font-size: 1.6rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: -0.1rem;
+            color: #a9a293;
+        }
+
+        span {
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #a9a293;
+        }
+
+        .orderTotalPrice {
+            font-weight: normal;
+            text-transform: none;
+            color: #f9f9f9;
+        }
+    }
+}
+
+#total-price {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -0.1rem;
+    color: #494949;
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+
+    label {
+        margin: 0 2vh;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        color: #494949;
+    }
+
+    input {
+        height: 5vh;
+        margin: 0 0 2vh 0;
+        padding: 0 1rem;
+        background: #e1e1e1;
+        border: none;
+    }
+
+    .buttons {
+        width: 90vw;
+        margin-top: 2vh;
+        text-align: center;
+
+        button {
+            width: 30vw;
+            height: 4vh;
+        }
+    }
+
+    input[type=text], input[type=email], select, textarea {
+        border-left: 0.6rem solid;
+        border-right: 0.6rem solid;
+        border-left-color: rgb(126, 196, 126);
+        border-right-color: rgb(126, 196, 126);
+        transition: all .5s ease-out;
+    }
+
+    input[type=text]:focus, input[type=email]:focus {
+        outline-color: rgb(131, 51, 40);
+    }
+
+    input[type=text]:valid:focus, input[type=email]:valid:focus {
+        outline-color: rgb(38, 124, 38);
+    }
+
+    input:invalid {
+        border-left-color: rgb(189, 86, 75);
+        border-right-color: rgb(189, 86, 75);
+      }
+}
+
+/* ---------------------------------------- */
+/* == CONFIRM - PAGE CONFIRMATION DE COMMANDE */
+/*---------------------------------------- */
+.container-confirm {
+    width: 90vw;
+    margin: 2vh 0;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #494949;
+
+    p {
+        padding: 0 0 1vh 0;
+        line-height: 1.4rem;
+    }
+
+    span {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
