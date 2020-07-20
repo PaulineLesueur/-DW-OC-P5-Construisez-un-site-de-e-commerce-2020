@@ -310,10 +310,11 @@ section {
 }
 .container-product-page .container-product .product-information .product-price-quantity {
   display: flex;
-  width: 90vw;
+  justify-content: center;
+  width: 60vw;
 }
 .container-product-page .container-product .product-information .product-price-quantity .product-price {
-  width: 40vw;
+  width: 20vw;
   background: #373229;
   font-size: 1.8rem;
   font-weight: 600;
@@ -326,17 +327,17 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60vw;
+  width: 30vw;
 }
 .container-product-page .container-product .product-information .product-price-quantity .product-quantity label {
-  width: 30vw;
+  width: 11vw;
   font-weight: 600;
   font-size: 1.2rem;
   text-transform: uppercase;
   color: #494949;
 }
 .container-product-page .container-product .product-information .product-price-quantity .product-quantity input {
-  width: 20vw;
+  width: 14vw;
 }
 .container-product-page .container-product .product-information button {
   width: 60vw;
