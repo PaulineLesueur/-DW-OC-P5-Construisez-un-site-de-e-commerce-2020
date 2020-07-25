@@ -57,7 +57,7 @@
                 <input type="text" name="city" placeholder="Votre ville..." id="city" maxlength="35" required>
         
                 <label for="email">Email</label>
-                <input type="email" name="email" placeholder="exemple123@test.com" id="email" required>
+                <input type="email" name="email" placeholder="exemple123@test.com" id="email" pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required>
         
                 <div class="buttons">
                     <button type="button" id="confirmOrder" onclick="confirmerCommande()">Confirmer l'envoi</button>
